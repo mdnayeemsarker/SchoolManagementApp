@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="10"
+    tools:context=".AddTeacherBoardActivity">
+
+    <EditText
+        android:id="@+id/add_teacher_board_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_weight="3"
+        android:hint="Enter the Text for Teacher's"
+        android:background="@drawable/input_design"/>
+
+    <Button
+        android:id="@+id/add_teacher_board_button_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:background="@drawable/input_design"/>
+
+</LinearLayout>

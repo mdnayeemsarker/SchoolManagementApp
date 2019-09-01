@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:weightSum="10"
+    tools:context=".UserStudentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/student_cardView_teacher_info_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_design"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/teacher_info"
+                            android:padding="5dp"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Teachers Information"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/student_cardView_notice_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/notice_board"
+                            android:padding="8dp"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Notice Board"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/student_cardView_result_admission_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_design"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/result_and_admission"
+                            android:padding="10dp"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Result and admission"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/student_cardView_event_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/event"
+                            android:padding="8dp"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Event"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/input_design"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/student_complain_name_Id"
+                    android:layout_width="match_parent"
+                    android:hint="Enter your Name"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:layout_height="40dp" />
+
+                <EditText
+                    android:id="@+id/student_complain_class_Id"
+                    android:layout_width="match_parent"
+                    android:hint="Enter your Class Name"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="40dp" />
+
+                <EditText
+                    android:id="@+id/student_complain_phone_Id"
+                    android:layout_width="match_parent"
+                    android:hint="Enter your Phone"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:layout_height="40dp" />
+
+                <EditText
+                    android:id="@+id/student_complain_text_Id"
+                    android:layout_width="match_parent"
+                    android:hint="Enter your complain"
+                    android:padding="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="100dp" />
+
+                <Button
+                    android:id="@+id/student_complain_button_Id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="#60e2be"
+                    android:textColor="#f90101"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Submit"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Calculator_Id"
+        android:text="Calculator"/>
+
+</LinearLayout>

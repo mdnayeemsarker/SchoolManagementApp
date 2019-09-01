@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_teacher"
+        android:orderInCategory="100"
+        android:title="Add Teacher"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_students"
+        android:orderInCategory="100"
+        android:title="Add Students"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notice_board"
+        android:orderInCategory="100"
+        android:title="Add Notice and Routine"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_result"
+        android:orderInCategory="100"
+        android:title="Add Result and Admission"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_event"
+        android:orderInCategory="100"
+        android:title="Add Event"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_teacher_board"
+        android:orderInCategory="100"
+        android:title="Add Teachers Board"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_teacher_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

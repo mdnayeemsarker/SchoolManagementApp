@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".AdminActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/admin_cardView_teacher_info_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_design"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:padding="5dp"
+                            android:src="@drawable/teacher_info"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Teachers Information"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/admin_cardView_notice_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="#000"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:padding="8dp"
+                            android:src="@drawable/notice_board"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Notice Board"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/admin_cardView_result_admission_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_design"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:padding="8dp"
+                            android:src="@drawable/result_and_admission"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Result and admission"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/admin_cardView_event_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="#000"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/event"
+                            android:padding="8dp"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Event"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/admin_cardView_student_info_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/input_design"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:padding="10dp"
+                            android:src="@drawable/student_nfo"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Student Information"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/admin_cardView_teacher_board_ID"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="#000"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/input_design"
+                        android:layout_margin="5dp"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:padding="5dp"
+                            android:src="@drawable/teacher_board"
+                            android:contentDescription="Teachers "
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:text="Teacher Board"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            tools:ignore="HardcodedText"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/teacher_complain_view_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Teacher Complain"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="3dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:background="@drawable/input_design"
+                android:focusable="true" />
+
+            <Button
+                android:id="@+id/student_complain_view_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Student Complain"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="3dp"
+                android:textAllCaps="false"
+                android:background="@drawable/input_design"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

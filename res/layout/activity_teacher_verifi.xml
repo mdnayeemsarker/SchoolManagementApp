@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#e7d2d2"
+    tools:context=".TeacherVerifiActivity">
+
+    <EditText
+        android:id="@+id/phone_number_verify_Id"
+        android:layout_width="match_parent"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:padding="20sp"
+        android:textColorHighlight="#c25656"
+        android:textColorHint="#c92e2e"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/verification_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Verification Code"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:id="@+id/code_number_verify_Id"
+        android:layout_width="match_parent"
+        android:hint="Enter Code Number"
+        android:inputType="number"
+        android:padding="20sp"
+        android:textColorHighlight="#c25656"
+        android:textColorHint="#c92e2e"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/sign_in_Id"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="Sign In"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

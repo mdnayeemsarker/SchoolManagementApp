@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:weightSum="10"
+    tools:context=".AgeCalculatorActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/present_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Present Date, Please: "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/present_month"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Present Month, Please: "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/present_year"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Present Year, Please: "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/birth_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Birth Date, Please: "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/birth_month"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Birth Month, Please: "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/birth_year"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Enter Your Birth Year, Please: "
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/calculate_Age_Button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:hint="Calculate"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/show_pr_Id"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/show_br_Id"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:text="Date"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/show_Id"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

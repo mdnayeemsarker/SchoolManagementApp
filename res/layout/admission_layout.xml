@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/input_design"
+    android:layout_margin="3dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/admission_image_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/about"/>
+
+    <TextView
+        android:id="@+id/admission_description_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/admission_date_Id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/admission_time_Id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="time"
+            android:gravity="end"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

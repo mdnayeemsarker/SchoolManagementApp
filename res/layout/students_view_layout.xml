@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--<ImageView
+            android:id="@+id/student_view_image_ID"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:src="@drawable/about"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:background="@drawable/input_design"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/student_view_name_ID"
+                android:textSize="20sp"
+                android:text="Name"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/student_view_phone_ID"
+                android:textSize="20sp"
+                android:text="Phone"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/student_view_email_ID"
+                android:textSize="20sp"
+                android:text="Email"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/student_view_title_ID"
+                android:textSize="20sp"
+                android:text="Title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
